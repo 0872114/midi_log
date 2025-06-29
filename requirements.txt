@@ -1,0 +1,3 @@
+mido
+db-sqlite3
+python-rtmidi
