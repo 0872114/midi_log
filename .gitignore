@@ -3,3 +3,4 @@ data/midi_log.db
 .*
 generate.py
 venv
+temp

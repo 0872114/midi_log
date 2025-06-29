@@ -1,9 +1,9 @@
-import mido
-import time
-from db import MidiLog
 import logging
-import threading
+import time
 
+import mido
+
+from data_engine import MidiLog
 
 log = logging.getLogger()
 log.addHandler(logging.StreamHandler())
