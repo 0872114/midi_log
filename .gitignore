@@ -1,0 +1,5 @@
+data/midi_log.db
+.pyc
+.*
+generate.py
+venv
