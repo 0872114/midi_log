@@ -12,7 +12,7 @@ import zipfile
 logging.basicConfig(level=logging.INFO)
 
 # Инициализация бота
-API_TOKEN = '7960699434:AAHieINmUrL5bAmfTO_W33NaMzt-j25OduE'  # Замените на свой токен
+API_TOKEN = os.environ.get("bot_token")  # Замените на свой токен
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()  # Диспетчер без аргументов в aiogram 3.x
 
