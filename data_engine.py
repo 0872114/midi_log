@@ -287,7 +287,7 @@ class MidiLog:
             logging.error(f"Ошибка воспроизведения MIDI: {e}")
             return f"❌ Ошибка воспроизведения сессии №{ordered_num}"
 
-    def get_session_by_id(self, session_id: int, input_name: str = None) -> tuple[str, bytes, int, str, str] | None:
+    def get_session_by_id(self, session_id: int, input_name: str = None):
         """
         Возвращает данные конкретной сессии по её номеру
         :param session_id: Номер сессии (начиная с 0)
