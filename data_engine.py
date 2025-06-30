@@ -1,12 +1,11 @@
 import io
 import json
 import logging
-import os
 import sqlite3
 import time
 from datetime import datetime, timedelta
 
-import rtmidi
+import matplotlib as plt
 from dateutil import parser
 from mido import Message, MidiTrack
 from mido import MidiFile
