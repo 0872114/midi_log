@@ -297,7 +297,7 @@ class MidiLog:
             all_sessions = self.get_midi_logs(days=0, input_name=input_name)
             if session_id < 0 or session_id >= len(all_sessions):
                 return None
-            return all_sessions[session_id]
+            return all_sessions[session_id+1]
         except Exception as e:
             logging.error(f"Error in get_session_by_id: {e}")
             return None
